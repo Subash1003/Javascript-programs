@@ -1,11 +1,12 @@
 let arr=[10,20,40,60,50,45];
-let a=6,c=0;
+let a=6,c=false;
 for(let i=0; i<arr.length;i++){
     if(arr[i]==a){
-      c=1;
+      c=true;
     }
 }
-if(c==1){
+if(c==true){
+
     console.log(a+" is present in the array");
 }
 else{
